@@ -27,5 +27,5 @@
 
 Go to the Folder named Dummy_Database.md and copy and paste the mysql command for making the database tables and fill some sample database.
 
-<span style="color:blue">Project done by </span>
-Amruth DD
+Project done by<br>
+**Amruth DD**
