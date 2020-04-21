@@ -37,7 +37,7 @@
 	}
 	.tab{
 		
-		background-color: rgba(225,225,225,0.4);
+		background-color: rgba(225,225,225,0);
 		border: 1px solid rgba(225,225,225,0.2);
 		border-radius: 4px;
 		color: #fff;
@@ -45,22 +45,26 @@
 		width:450px;
 		color:green;
 		font-weight: bold;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Gill Sans', sans-serif;
 		text-align:center;
 		font-size: 22px;
 		margin-bottom:10px;
 		padding:10px;
 	}
-
+	.tab:hover{
+	background-color: rgba(225,225,225,0.2);
+	border: 1px solid rgba(225,225,225,0.2);
+	color: #FFF;
+}
 .tab1{
 		
-		background-color: rgba(225,225,225,0.1);
+		background-color: rgba(225,225,225,0.4);
 		border: 1px solid rgba(225,225,225,0.2);
 		border-radius: 4px;
 		color: #fff;
 		margin-left: 48%;
 		width:450px;
-		color:white;
+		color:green;
 		font-weight: bold;
 		font-family: 'Oswald', sans-serif;
 		text-align:center;
@@ -91,7 +95,6 @@
 	border: 1px solid rgba(225,225,225,0.2);
 	color: #FFF;
 }
-	}
 	.yel{
 	color:yellow;
 	}
@@ -131,26 +134,29 @@
 		<a href="index.html">Logout</a>
 	</div>
 	
-	<table class="tab white hd">
+	<table class="tab1 white hd" bgcolor="black">
 		<tr>
-			<td>ADMIN LOGIN</td>
+			<td>Login/Signup</td>
 		</tr>
 	</table>
 
-	<table class="tab1" border="0px" >
+	<table class="tab" border="0px solid black">
 		
 		<tr>
-			<td>
-				<form action="adminlog" method="post">
-					Username: <input type="text" name="username"><br/><br/>
-					Password: <input type="password" name="password"><br/><br/>
-					<input type="submit" value=" LOGIN AS ADMIN " text-align="center">
-				</form>
-			</td>
-			
-		</tr>  
+			<td><a href="AdminLogin.html">As Admin</a></td>
+		</tr>
 	</table>
-	</div>
+	<table class="tab" border="0px solid black">
+		
+		<tr>
+			<td><a href="UserLogin.html">As<span> User</span> </a></td>
+		</tr>
+	</table>
+	<table class="tab green">
+		<tr>
+			<td><a href="UserRegister.html">New user!! Register Here</a></td>
+		</tr>
+	</table>
 
 </body>
 </html>

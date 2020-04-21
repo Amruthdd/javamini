@@ -5,8 +5,7 @@
 - Maintaining books selling history
 - Adding and managing books
 - User Friendly
-- For Implemention of Generic Servlets in Java
-- This is a Mini-project developed using Java, Jdbc, And Generic Servlets
+
 
 <span style="color:blue">**Admin Have Following Access for this online store site:-**</span>
 - Add New Books
@@ -23,31 +22,12 @@
 - Buy Books
 - Get Payment Receipt
 
-### Technologies used:-
-1. Front-End Development:
-- Html
-- Css
-- Javascript
-
-2. Back-End Development
-- Java
-- JDBC
-- Servlet
-- Oracle
-- Maven Support
-
-3. Database used
-- Sql/MySql
 
 ### Database Creation:
 
-Go to the Folder named <a href="https://github.com/shashirajraja/onlinebookstore/blob/gh-pages/Dummy_Database.md">Dummy_Database.md</a> and copy and paste the mysql command for making the database tables and fill some dummy database.
+Go to the Folder named Dummy_Database.md and copy and paste the mysql command for making the database tables and fill some sample database.
 
 
-Note:- This is a basic Project so we have not think about the security and we have only implemented this project using the generic servlet
 
-#### "Suggestions and project Improvements are Invited!"
-
-<bold>Thanks a lot</bold><br/>
-                                                                                                        Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                        Project done by<br/>
+                                                                                                         <b>Amruth DD</b>
