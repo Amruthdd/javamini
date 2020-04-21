@@ -29,5 +29,5 @@ Go to the Folder named Dummy_Database.md and copy and paste the mysql command fo
 
 
 
-                                                                                                        Project done by<br/>
+                                                                                                        <br>Project done by<br/>
                                                                                                          <b>Amruth DD</b>
